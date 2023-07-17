@@ -1,0 +1,19 @@
+=> install node 
+node --version
+
+=> install typescript > npm install -g typescript
+
+=> npm install -g typescript
+
+=> install ts-node > npm install -g ts-node
+
+=> install nodemon > npm i nodemon
+=> nodemon --version	
+   
+
+=> npm install -g ts-node
+
+=> run program of ts > ts-node src/index.ts
+
+=> Convert TypeScript code into javaScript code
+=> tsc src/index.ts
