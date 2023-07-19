@@ -17,3 +17,6 @@ node --version
 
 => Convert TypeScript code into javaScript code
 => tsc src/index.ts
+
+=> type node & type express both are packages in npm
+=> npm install express @types/express
