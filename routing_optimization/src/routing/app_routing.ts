@@ -20,7 +20,7 @@ export class AppRouting {
             <h1>All Users</h1>        
                 
         `);
-        } else if (myPath == "/data" && method == "GET") {
+        } else if (myPath == "/data_mongodb" && method == "GET") {
 
             res.write(`
                 <h1>Data</h1>    
@@ -52,7 +52,7 @@ export class AppRouting {
                 (err, data) => {
 
                     // console.log(err);
-                    // console.log(data.toString());
+                    // console.log(data_mongodb.toString());
 
                     if (err) {
                         res.write(`

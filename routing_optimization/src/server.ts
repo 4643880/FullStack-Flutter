@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
     res.setHeader("content-type", "text/html");
     let _url = req.url;
     let queryParams = url.parse(_url!).query;
-    let filterQuery= queryParams?.split("data=?").pop()!.replaceAll("%22" , " ").replaceAll("%20", " ");
+    let filterQuery= queryParams?.split("data_mongodb=?").pop()!.replaceAll("%22" , " ").replaceAll("%20", " ");
 
 
     let myPath = url.parse(_url!).path;

@@ -1,0 +1,12 @@
+
+
+
+=> Don't forget to install mongo shell
+
+=> show dbs
+
+=> use socialMedia
+
+=> show collections
+
+=> db.users.insertOne({})

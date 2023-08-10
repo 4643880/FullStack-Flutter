@@ -20,3 +20,5 @@ node --version
 
 => type node & type express both are packages in npm
 => npm install express @types/express
+
+=> Dont forget to install mongo shell

@@ -10,7 +10,7 @@ const hostName = 'localhost';
 const app = express();
 const portNumber = 5000;
 
-// Accepting json data
+// Accepting json data_mongodb
 app.use(express.json());
 app.use(appLogger);
 
