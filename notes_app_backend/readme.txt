@@ -1,0 +1,7 @@
+
+
+=> npm init --yes
+
+=> tsc --init
+
+=> npm start run
