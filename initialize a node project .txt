@@ -3,6 +3,7 @@
 
 => tsc --init
 
+=> How to run index.ts > ts-node src/index.ts
 
 => How to run index.js > node index.js
 

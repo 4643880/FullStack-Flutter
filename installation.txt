@@ -8,14 +8,10 @@ node --version
 => tsc -v 
 
 => npm install -g typescript
-
 => install ts-node > npm install -g ts-node
 
 => install nodemon > npm i nodemon
 => nodemon --version	
-   
-
-=> npm install -g ts-node
 
 => run program of ts > ts-node src/index.ts
 
