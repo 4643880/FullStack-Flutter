@@ -1,5 +1,17 @@
-=> npm init --yes
+=> npm init --yes // it will craete default, everything will be yes yes yes
+=> npm init // it will create manual 
 
 => tsc --init
 
+
+=> How to run index.js > node index.js
+
+=> write your starting command in package.json
+"scripts": {
+    "start": "node index.js"
+},
+
 => npm start run
+
+=> npm i @types/node
+=> npm install express @types/express

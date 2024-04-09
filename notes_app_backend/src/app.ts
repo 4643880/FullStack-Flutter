@@ -5,6 +5,7 @@ import appLogger from "./middleware/app_logger";
 import {connectToDB} from "./config/mongo_db_client";
 import app_logger from "./middleware/app_logger";
 import user_Router from "./router/user_router";
+import offline_router from './router/offline_router';
 const app : express.Application = express();
 
 app.use(cors()); // will handle the requests from other origins
@@ -13,6 +14,7 @@ app.use(app_logger);
 // We'll accept the data from url, will accept incomming data from url
 app.use(express.urlencoded({extended: false}));
 app.use("/v1/api/user", user_Router);
+app.use("/v1/api/offline_testing", offline_router);
 
 
 const hostName = 'localhost';

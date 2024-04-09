@@ -1,7 +1,11 @@
 => install node 
 node --version
 
+=> How to run index.js > node index.js
+=> npm run start 
+
 => install typescript > npm install -g typescript
+=> tsc -v 
 
 => npm install -g typescript
 
@@ -19,6 +23,7 @@ node --version
 => tsc src/index.ts
 
 => type node & type express both are packages in npm
+=> npm i @types/node
 => npm install express @types/express
 
 => Dont forget to install mongo shell
