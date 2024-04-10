@@ -1,0 +1,10 @@
+=> db
+=> show dbs
+=> use AizazDB
+=> show collections
+=> db.aizazdata.find().pretty
+
+
+=> db.aizazdata.insertOne({})
+=> db.aizazdata.insertMany([{},{}])
+

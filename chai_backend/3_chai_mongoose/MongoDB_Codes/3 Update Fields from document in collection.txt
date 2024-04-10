@@ -1,0 +1,5 @@
+=> db.aizazdata.updateOne({filter}, {$set : {update} })
+
+=> db.aizazdata.updateOne({name: "JavaScript"}, {$set: {type: "Full Stack"}})
+
+=> db.aizazdata.updateMany({type: "FrontEnd"}, {$set: {Active: false}})

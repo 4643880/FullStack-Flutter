@@ -1,0 +1,12 @@
+=> db.aizazdata.find(Query, Projection).pretty()
+
+=> name: 0 means false it will not show name, name: 1 means true it will show name
+=> db.aizazdata.find({name: "Nodejs"}, {name: 0}).pretty()
+
+=> db.aizazdata.find({name: "Nodejs"}, {name: 1, _id: 0}).pretty()
+
+=> db.aizazdata.find({Active: true}).pretty().limit(1)
+
+=> db.aizazdata.findOne({Active: true})
+
+=> db.aizazdata.find({Active: true}).pretty().limit(1).skip(1)

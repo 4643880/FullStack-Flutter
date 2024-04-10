@@ -1,0 +1,11 @@
+=> db.aizazdata.deleteMany(Deletion Criteria)
+
+=> db.aizazdata.deleteMany({type: "FrontEnd"})
+
+=> db.aizazdata.deleteMany({}) For Delete All Documents
+
+=> db.aizazdata.updateOne({filter}, {$set : {update} })
+
+=> db.aizazdata.updateOne({name: "JavaScript"}, {$set: {type: "Full Stack"}})
+
+=> db.aizazdata.updateMany({type: "FrontEnd"}, {$set: {Active: false}})

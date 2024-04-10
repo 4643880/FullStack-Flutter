@@ -1,0 +1,17 @@
+Data Directory => C:\Program Files\MongoDB\Server\5.0\data\
+Log Directory => C:\Program Files\MongoDB\Server\5.0\log\
+
+To start MongoDB, run exe.
+"C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --dbpath="c:\data\db"
+
+"C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe" --version
+
+
+For Creating Package.json
+=> npm init -y
+
+For installing Mongoose
+=> npm i or install mongoose
+
+For installing Validator Pkg
+=> npm i validator 
