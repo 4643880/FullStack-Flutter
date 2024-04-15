@@ -1,0 +1,17 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Using Validation ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aizaz Haider",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "validator": "^13.7.0"
+  }
+    
+}

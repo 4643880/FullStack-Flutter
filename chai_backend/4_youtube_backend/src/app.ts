@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import appLogger from "../middlewares/app_logger.middleware";
+import user_router from "./routes/user_routes";
 
 const app = express();
 
@@ -11,5 +12,6 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" })); //allows for nes
 app.use(express.static("public"));
 app.use(cookieParser());
 app.use(appLogger);
+app.use("/api/v1/users", user_router);
 
-export {app};
+export { app };
