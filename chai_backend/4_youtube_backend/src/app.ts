@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import appLogger from "../middlewares/app_logger.middleware";
+import appLogger from "./middlewares/app_logger.middleware";
 import user_router from "./routes/user_routes";
 
 const app = express();
